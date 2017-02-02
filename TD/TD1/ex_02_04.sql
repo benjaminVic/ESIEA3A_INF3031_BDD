@@ -1,5 +1,5 @@
 SELECT last_name, job_id, hire_date
-from employees
-where last_name in ('Matos', 'Taylor')
-order by hire_date asc
+FROM employees
+WHERE last_name in ('Matos', 'Taylor')
+ORDER BY hire_date asc
 ;
