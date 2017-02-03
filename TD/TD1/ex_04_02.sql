@@ -1,0 +1,1 @@
+SELECT last_name, hire_date, 'Le ' || TO_CHAR(ADD_MONTHS(hire_date, 6), 'Day DD MONTH YYYY') as REVIEW from EMPLOYEES ;
