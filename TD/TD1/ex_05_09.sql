@@ -1,0 +1,1 @@
+SELECT MAX(salary) -  MIN(salary) AS Difference  FROM employees;
