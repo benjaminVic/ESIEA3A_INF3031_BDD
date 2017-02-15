@@ -1,0 +1,5 @@
+INSERT INTO MY_EMPLOYEE
+VALUES(5,'Ropeburn','Audrey','aropebur',1550);
+SAVEPOINT do_delete;
+DELETE FROM MY_EMPLOYEE;
+ROLLBACK TO do_delete;
