@@ -1,0 +1,22 @@
+Exercice 1.1
+Seul le bloc d. Foncrtionne
+
+Exercice 2.1
+	a. Valide
+	b. Valide
+	c. Non Valide
+	d. Non Valide
+	e. Non Valide	
+	f. Non Valide
+	g. Valide
+	h. Valide
+
+Exercice 2.2
+	a. Valide
+	b. Non Valide (constante)
+	c. Non Valide (les ' ' manquent)
+	d. Valide
+
+Exercice 2.3
+	La réponse a.
+
