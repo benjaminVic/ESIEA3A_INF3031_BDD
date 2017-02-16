@@ -161,7 +161,7 @@
 <ownDataTypeParameters>,2,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MANAGER_ID" id="EAFEF908-F95F-EBF7-3527-863A2493552F">
+<Column name="EMPLOYEES_EMPLOYEE_ID" id="EAFEF908-F95F-EBF7-3527-863A2493552F">
 <sourceConnName>hr</sourceConnName>
 <sourceObjSchema>EMPLOYEES</sourceObjSchema>
 <sourceObjName>MANAGER_ID</sourceObjName>
@@ -181,7 +181,7 @@
 <colAssociation fkAssociation="49E9C57E-776F-0263-FF1A-DBABD8333DF7" referredColumn="D955AE24-A3D2-4032-E8F7-6BC0819E19F1"/>
 </associations>
 </Column>
-<Column name="DEPARTMENT_ID" id="4E20AC27-6C12-F2B8-7323-2ACBB97A8B36">
+<Column name="DEPARTMENTS_DEPARTMENT_ID" id="4E20AC27-6C12-F2B8-7323-2ACBB97A8B36">
 <sourceConnName>hr</sourceConnName>
 <sourceObjSchema>EMPLOYEES</sourceObjSchema>
 <sourceObjName>DEPARTMENT_ID</sourceObjName>
@@ -203,7 +203,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="48C9048B-99B1-0603-79BB-01E24E24C37C" name="EMP_EMP_ID_PK">
+<ind_PK_UK id="48C9048B-99B1-0603-79BB-01E24E24C37C" name="EMPLOYEES_PK">
 <sourceConnName>hr</sourceConnName>
 <sourceObjSchema>HR</sourceObjSchema>
 <sourceObjName>EMP_EMP_ID_PK</sourceObjName>
@@ -217,7 +217,7 @@
 <colUsage columnID="D955AE24-A3D2-4032-E8F7-6BC0819E19F1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1F85FA31-B6ED-3A1C-3205-4E4F945EA652" name="EMP_EMAIL_UK">
+<ind_PK_UK id="1F85FA31-B6ED-3A1C-3205-4E4F945EA652" name="EMPLOYEES_EMAIL_UN">
 <sourceConnName>hr</sourceConnName>
 <sourceObjSchema>HR</sourceObjSchema>
 <sourceObjName>EMP_EMAIL_UK</sourceObjName>
@@ -305,7 +305,7 @@
 <colUsage columnID="524329C0-18C5-C871-6A8A-EBA90FD7C381"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="85BA8FED-FE81-4EF6-589A-23B40D386662" name="EMP_DEPT_FK">
+<ind_PK_UK id="85BA8FED-FE81-4EF6-589A-23B40D386662" name="EMPLOYEES_DEPARTMENTS_FK">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:43 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -325,7 +325,7 @@
 <colUsage columnID="9753CE34-B1AE-2983-6924-A2645F91A9D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="006AFE0D-2CF7-6F11-F5F6-972735AF6C16" name="EMP_MANAGER_FK">
+<ind_PK_UK id="006AFE0D-2CF7-6F11-F5F6-972735AF6C16" name="EMPLOYEES_EMPLOYEES_FK">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:43 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>

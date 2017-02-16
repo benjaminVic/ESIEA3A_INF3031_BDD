@@ -22,7 +22,7 @@
 <createdTime>2017-02-16 12:34:42 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="DEPARTMENT_ID" id="4E20AC27-6C12-F2B8-7323-2ACBB97A8B36">
+<ColumnProxy name="DEPARTMENTS_DEPARTMENT_ID" id="4E20AC27-6C12-F2B8-7323-2ACBB97A8B36">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:42 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -57,7 +57,7 @@
 <createdTime>2017-02-16 12:34:42 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="MANAGER_ID" id="EAFEF908-F95F-EBF7-3527-863A2493552F">
+<ColumnProxy name="EMPLOYEES_EMPLOYEE_ID" id="EAFEF908-F95F-EBF7-3527-863A2493552F">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:42 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -119,7 +119,7 @@
 </IndexProxy>
 </indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_MANAGER_FK" id="006AFE0D-2CF7-6F11-F5F6-972735AF6C16">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLOYEES_EMPLOYEES_FK" id="006AFE0D-2CF7-6F11-F5F6-972735AF6C16">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:43 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -129,14 +129,14 @@
 <createdTime>2017-02-16 12:34:43 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_DEPT_FK" id="85BA8FED-FE81-4EF6-589A-23B40D386662">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMPLOYEES_DEPARTMENTS_FK" id="85BA8FED-FE81-4EF6-589A-23B40D386662">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:43 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_EMP_ID_PK" id="48C9048B-99B1-0603-79BB-01E24E24C37C">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYEES_PK" id="48C9048B-99B1-0603-79BB-01E24E24C37C">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:42 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -149,7 +149,7 @@
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMP_EMAIL_UK" id="1F85FA31-B6ED-3A1C-3205-4E4F945EA652">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMPLOYEES_EMAIL_UN" id="1F85FA31-B6ED-3A1C-3205-4E4F945EA652">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:34:42 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>

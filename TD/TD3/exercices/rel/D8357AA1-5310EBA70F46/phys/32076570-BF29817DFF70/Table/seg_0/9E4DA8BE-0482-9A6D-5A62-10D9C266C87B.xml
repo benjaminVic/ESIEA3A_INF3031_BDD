@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TASKS" directorySegmentName="seg_0" id="9E4DA8BE-0482-9A6D-5A62-10D9C266C87B">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPLOYEES_EMPLOYEE_ID" id="41671057-BDE9-12DC-0943-FA4EFBA2BBF7">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUDGET" id="7A1F0C28-48C8-D59A-D5B0-4E7220390339">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TASK_NAME" id="7DC0558E-3140-F1FB-2EEF-1FDF0657107B">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COST" id="ACC34A2C-416B-E758-C07D-A8C90D99F1C1">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROJECTS_PROJECT_ID" id="E0A712FD-8502-7B4D-808D-E3DFB4A1D637">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TASK_ID" id="F148E73A-9A3B-1C4F-F17D-D38A9C49029C">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TASKS_PROJECTS_FK" id="3986D55D-B39E-E6A8-908D-122A51C0A081">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TASKS_EMPLOYEES_FK" id="8719EC80-A0CB-C568-B54F-8CD4B56D486E">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TASKS_PK" id="41CA9FAB-AB35-B43D-E931-2CCCCC290A78">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

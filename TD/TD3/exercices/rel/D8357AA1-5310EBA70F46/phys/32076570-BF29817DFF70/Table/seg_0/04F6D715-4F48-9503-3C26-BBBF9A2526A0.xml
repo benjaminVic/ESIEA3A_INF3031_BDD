@@ -9,6 +9,11 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="STATUS" id="392C4455-220A-6387-2927-97D239DB207B">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="PROJECT_START_DATE" id="82269E47-FDBA-8A63-0E90-4F4E5700FA2C">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:48:35 UTC</createdTime>
@@ -24,7 +29,7 @@
 <createdTime>2017-02-16 12:47:39 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="DEPARTEMENTS_DEPARTEMENT_ID" id="E74A2047-096B-19D8-3FAB-592DAAE3AB99">
+<ColumnProxy name="DEPARTMENTS_DEPARTMENT_ID" id="E74A2047-096B-19D8-3FAB-592DAAE3AB99">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 13:00:41 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>

@@ -57,7 +57,7 @@
 </IndexProxy>
 </indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPT_MGR_FK" id="7A2AAF57-EA98-021C-CAF3-1480E1ACA844">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPARTMENTS_EMPLOYEES_FK" id="7A2AAF57-EA98-021C-CAF3-1480E1ACA844">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:35:11 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -69,7 +69,7 @@
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPT_ID_PK" id="F7A7E736-6F56-5942-B65A-96DC8F9C3D62">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTMENTS_PK" id="F7A7E736-6F56-5942-B65A-96DC8F9C3D62">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:35:11 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>

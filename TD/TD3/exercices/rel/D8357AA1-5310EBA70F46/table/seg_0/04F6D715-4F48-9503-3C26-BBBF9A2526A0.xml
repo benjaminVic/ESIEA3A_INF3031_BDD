@@ -54,7 +54,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DEPARTEMENTS_DEPARTEMENT_ID" id="E74A2047-096B-19D8-3FAB-592DAAE3AB99">
+<Column name="DEPARTMENTS_DEPARTMENT_ID" id="E74A2047-096B-19D8-3FAB-592DAAE3AB99">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 13:00:41 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
@@ -68,6 +68,19 @@
 <associations>
 <colAssociation fkAssociation="AE1AFA99-B2E9-0262-9030-C61896DABAE5" referredColumn="8F736A65-C36C-06B2-BAC4-BE92A669F4F7"/>
 </associations>
+</Column>
+<Column name="STATUS" id="392C4455-220A-6387-2927-97D239DB207B">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>DB0557C7-A0A2-8287-938C-9274541E7C59</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

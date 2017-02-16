@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46585195-0483-F4AF-792B-954A0CBA2650" name="PROJECTS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79068BE5-9DA9-198B-78C2-D0B60231281D" name="TASKS">
 <createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<createdTime>2017-02-16 13:39:36 UTC</createdTime>
 <generatorID>04F6D715-4F48-9503-3C26-BBBF9A2526A0</generatorID>
 <ownerDesignName>exercices</ownerDesignName>
 <engineerTo>
@@ -15,12 +15,11 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
-<shortName>PRO</shortName>
+<shortName>TAS</shortName>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PROJECT ID" id="9B20B4BD-941D-3445-6430-B5368819B3FA">
+<Attribute name="TASK_ID" id="0E585DD1-D32D-7BFC-FB24-04AD141176F6">
 <createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
-<generatorID>BC774E9C-484A-A420-13FF-1C01CA7D2DAA</generatorID>
+<createdTime>2017-02-16 13:40:28 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 <engineerTo>
 <item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
@@ -31,10 +30,9 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PROJECT NAME" id="87D8E47E-A32A-5910-BEB1-11CC557BB749">
+<Attribute name="TASK_NAME" id="9C1E86D8-7D26-8DAF-97AE-48899FD64B73">
 <createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
-<generatorID>C2C95EEF-E7ED-6014-4200-B04568673560</generatorID>
+<createdTime>2017-02-16 13:41:08 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 <engineerTo>
 <item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
@@ -43,56 +41,26 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PROJECT START DATE" id="25A4B1D5-A50D-7F8F-0CAE-6743B7047B78">
+<Attribute name="COST" id="DD146F6D-7348-B395-BE25-10BF515DE2C2">
 <createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
-<generatorID>82269E47-FDBA-8A63-0E90-4F4E5700FA2C</generatorID>
+<createdTime>2017-02-16 13:41:59 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 <engineerTo>
 <item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="PROJECT END DATE" id="1BB0737B-797B-E972-CA59-96EA2C01AA99">
-<createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
-<generatorID>FEC214AA-BA03-34AF-4642-D031D82285AC</generatorID>
-<ownerDesignName>exercices</ownerDesignName>
-<engineerTo>
-<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DEPARTEMENTS DEPARTEMENT ID" id="58C5BCAC-2873-2826-57CA-038F245F4F10">
-<createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
-<generatorID>2E108079-91D2-6D3A-577F-0C967C55E7D1</generatorID>
-<ownerDesignName>exercices</ownerDesignName>
-<engineerTo>
-<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>69974457-253F-1F99-95B3-8388FEA721D4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="STATUS" id="DB0557C7-A0A2-8287-938C-9274541E7C59">
+<Attribute name="BUDGET" id="382DEEFA-2819-CCA4-5E0A-10C0CBFFE470">
 <createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:22:32 UTC</createdTime>
+<createdTime>2017-02-16 13:42:00 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
 <engineerTo>
 <item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
@@ -100,24 +68,54 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLOYEE ID" id="6B9E5A5B-95B7-F565-7CEE-EE180CF753C0">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:47:13 UTC</createdTime>
+<generatorID>8AEAEF2F-306B-B998-6105-90064B08C5F7</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<referedAttribute>FDD973D5-302A-5D35-B110-3B9D2CC0C183</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROJECT ID" id="DFDAD79A-A87D-EF52-B102-46418C9476F4">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:47:25 UTC</createdTime>
+<generatorID>37687E67-0973-F2CF-1E0E-849D0B2D308F</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<referedAttribute>9B20B4BD-941D-3445-6430-B5368819B3FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B1F687A6-F72F-4E2B-921F-9451AB801E4D" name="PROJECTS PK">
+<identifier id="D0DF9046-F790-CBB0-C876-F1566AA553FE" name="PROJECTS PK">
 <createdBy>BenjaminVIC</createdBy>
-<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<createdTime>2017-02-16 13:39:36 UTC</createdTime>
 <generatorID>00913093-6FC4-90B7-11EA-FE2AB8B61220</generatorID>
 <ownerDesignName>exercices</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="false"/>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9B20B4BD-941D-3445-6430-B5368819B3FA</attributeRef>
+<attributeRef>0E585DD1-D32D-7BFC-FB24-04AD141176F6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

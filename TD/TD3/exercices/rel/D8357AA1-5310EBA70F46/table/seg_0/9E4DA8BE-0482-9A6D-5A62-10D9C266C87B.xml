@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E4DA8BE-0482-9A6D-5A62-10D9C266C87B" name="TASKS">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>79068BE5-9DA9-198B-78C2-D0B60231281D</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<abbreviation>TAS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TASK_ID" id="F148E73A-9A3B-1C4F-F17D-D38A9C49029C">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>0E585DD1-D32D-7BFC-FB24-04AD141176F6</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TASK_NAME" id="7DC0558E-3140-F1FB-2EEF-1FDF0657107B">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>9C1E86D8-7D26-8DAF-97AE-48899FD64B73</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COST" id="ACC34A2C-416B-E758-C07D-A8C90D99F1C1">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>DD146F6D-7348-B395-BE25-10BF515DE2C2</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUDGET" id="7A1F0C28-48C8-D59A-D5B0-4E7220390339">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>382DEEFA-2819-CCA4-5E0A-10C0CBFFE470</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEES_EMPLOYEE_ID" id="41671057-BDE9-12DC-0943-FA4EFBA2BBF7">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>6B9E5A5B-95B7-F565-7CEE-EE180CF753C0</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2C8519B-237F-9821-4E71-F1F4EE9767B8" referredColumn="D955AE24-A3D2-4032-E8F7-6BC0819E19F1"/>
+</associations>
+</Column>
+<Column name="PROJECTS_PROJECT_ID" id="E0A712FD-8502-7B4D-808D-E3DFB4A1D637">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>DFDAD79A-A87D-EF52-B102-46418C9476F4</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0D63507-3196-ECC6-DCC5-1C1C750908DB" referredColumn="BC774E9C-484A-A420-13FF-1C01CA7D2DAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41CA9FAB-AB35-B43D-E931-2CCCCC290A78" name="TASKS_PK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>D0DF9046-F790-CBB0-C876-F1566AA553FE</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F148E73A-9A3B-1C4F-F17D-D38A9C49029C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8719EC80-A0CB-C568-B54F-8CD4B56D486E" name="TASKS_EMPLOYEES_FK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>8AEAEF2F-306B-B998-6105-90064B08C5F7</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41671057-BDE9-12DC-0943-FA4EFBA2BBF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3986D55D-B39E-E6A8-908D-122A51C0A081" name="TASKS_PROJECTS_FK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:48:10 UTC</createdTime>
+<generatorID>37687E67-0973-F2CF-1E0E-849D0B2D308F</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0A712FD-8502-7B4D-808D-E3DFB4A1D637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

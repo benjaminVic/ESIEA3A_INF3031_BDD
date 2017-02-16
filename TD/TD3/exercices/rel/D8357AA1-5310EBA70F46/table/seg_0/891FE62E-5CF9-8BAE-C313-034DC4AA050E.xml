@@ -49,6 +49,7 @@
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:35:11 UTC</createdTime>
 <commentInRDBMS>Manager_id of a department. Foreign key to employee_id column of employees table. The manager_id column of the employee table references this column.</commentInRDBMS>
+<generatorID>8E32C19E-37D1-2010-3671-92CB21C00518</generatorID>
 <ownerDesignName>exercices</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -93,7 +94,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F7A7E736-6F56-5942-B65A-96DC8F9C3D62" name="DEPT_ID_PK">
+<ind_PK_UK id="F7A7E736-6F56-5942-B65A-96DC8F9C3D62" name="DEPARTMENTS_PK">
 <sourceConnName>hr</sourceConnName>
 <sourceObjSchema>HR</sourceObjSchema>
 <sourceObjName>DEPT_ID_PK</sourceObjName>
@@ -142,7 +143,7 @@
 <colUsage columnID="3C3209AC-242F-330F-6692-9A536DFF4590"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7A2AAF57-EA98-021C-CAF3-1480E1ACA844" name="DEPT_MGR_FK">
+<ind_PK_UK id="7A2AAF57-EA98-021C-CAF3-1480E1ACA844" name="DEPARTMENTS_EMPLOYEES_FK">
 <createdBy>BenjaminVIC</createdBy>
 <createdTime>2017-02-16 12:35:11 UTC</createdTime>
 <ownerDesignName>exercices</ownerDesignName>
