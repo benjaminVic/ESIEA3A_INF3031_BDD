@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_DEPT_FK" directorySegmentName="seg_0" id="A33B28E9-5B1E-3952-67DF-244A27394F6E">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<generatorID>5835DE85-C4DC-B300-D4EC-3B362639C256</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<sourcePk>0BD8B180-304E-BEC8-A058-47351762965C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>77313120-5C1D-073C-F2B1-AAE9EC46EF99</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A5519BE8-02DE-2900-FE6A-18F794DC3FF0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

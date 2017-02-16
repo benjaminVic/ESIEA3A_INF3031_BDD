@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EMPLOYEES" directorySegmentName="seg_0" id="45503C16-9AAE-8CD7-70F3-214204AE8F9E">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:41 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>88C7F51A-50A3-8FA4-CAE7-8362E30F89A2</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="0D15C66C-DF67-8359-58E5-7F0F30E3C7CD">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="2BA5EEC2-04F0-CE84-17D9-33F33BAE23E2">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_ID" id="4E20AC27-6C12-F2B8-7323-2ACBB97A8B36">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="524329C0-18C5-C871-6A8A-EBA90FD7C381">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE_NUMBER" id="79020E13-A759-041E-FCD1-161FDB66F7F7">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMMISSION_PCT" id="7DAA4725-DD95-DA0A-606F-1CD1B6B76E00">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIRE_DATE" id="7E86AFAA-E5AC-478A-C007-1DAACC2050E2">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB_ID" id="9753CE34-B1AE-2983-6924-A2645F91A9D6">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEE_ID" id="D955AE24-A3D2-4032-E8F7-6BC0819E19F1">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MANAGER_ID" id="EAFEF908-F95F-EBF7-3527-863A2493552F">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="EC4A7AE5-15C9-49DC-9CFE-47EBAC343E54">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_EMAIL_UK" id="063B0159-DE07-B08B-9E43-D77A1BDC7FE6">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_DEPARTMENT_IX" id="434F9EB0-9399-E700-068C-34D137329BB0">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_JOB_IX" id="6DFF0252-764D-1441-941A-6E0179768C23">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_NAME_IX" id="91DBB6E8-C2CC-F510-CCA1-D944DE5F5611">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_EMP_ID_PK" id="C27D4F98-B960-1531-C290-EC80F959BE47">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EMP_MANAGER_IX" id="C8648990-4ED7-7005-81C1-C5A8979251D0">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_MANAGER_FK" id="006AFE0D-2CF7-6F11-F5F6-972735AF6C16">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:43 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_JOB_FK" id="406FD4E3-55AC-CEFE-8933-8AE410912AA2">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:43 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EMP_DEPT_FK" id="85BA8FED-FE81-4EF6-589A-23B40D386662">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:43 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMP_EMP_ID_PK" id="48C9048B-99B1-0603-79BB-01E24E24C37C">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+<existingIndex>C27D4F98-B960-1531-C290-EC80F959BE47</existingIndex>
+<indexSegment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EMP_EMAIL_UK" id="1F85FA31-B6ED-3A1C-3205-4E4F945EA652">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:42 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<segment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</segment>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+<existingIndex>063B0159-DE07-B08B-9E43-D77A1BDC7FE6</existingIndex>
+<indexSegment>18DADBB9-0032-7587-D4ED-7DF9F2DD4B0D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

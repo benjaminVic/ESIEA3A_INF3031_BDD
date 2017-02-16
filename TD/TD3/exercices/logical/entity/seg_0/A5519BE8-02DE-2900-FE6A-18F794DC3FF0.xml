@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5519BE8-02DE-2900-FE6A-18F794DC3FF0" name="EMPLOYEES">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>employees table. Contains 107 rows. References with departments,&lt;br/&gt;jobs, job_history tables. Contains a self reference.</commentInRDBMS>
+<generatorID>45503C16-9AAE-8CD7-70F3-214204AE8F9E</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMPLOYEE ID" id="FDD973D5-302A-5D35-B110-3B9D2CC0C183">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Primary key of employees table.</commentInRDBMS>
+<generatorID>D955AE24-A3D2-4032-E8F7-6BC0819E19F1</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FIRST NAME" id="4EA3AE9C-69B3-B211-B96F-07EA7B44526D">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>First name of the employee. A not null column.</commentInRDBMS>
+<generatorID>524329C0-18C5-C871-6A8A-EBA90FD7C381</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST NAME" id="D60D0F08-A902-680D-14AF-C2AA6B75CAFE">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Last name of the employee. A not null column.</commentInRDBMS>
+<generatorID>2BA5EEC2-04F0-CE84-17D9-33F33BAE23E2</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="CC05D28C-9E64-3111-DC56-E529F35111ED">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Email id of the employee</commentInRDBMS>
+<generatorID>0D15C66C-DF67-8359-58E5-7F0F30E3C7CD</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHONE NUMBER" id="1B15EE8A-76DF-3550-2F36-3B6431FD8A9F">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Phone number of the employee; includes country code and area code</commentInRDBMS>
+<generatorID>79020E13-A759-041E-FCD1-161FDB66F7F7</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HIRE DATE" id="A2F0EE4F-9033-0EE7-95A9-75BDD3263A4D">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Date when the employee started on this job. A not null column.</commentInRDBMS>
+<generatorID>7E86AFAA-E5AC-478A-C007-1DAACC2050E2</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JOB ID" id="5C375A28-A105-DD5C-C8FE-63951290539A">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Current job of the employee; foreign key to job_id column of the&lt;br/&gt;jobs table. A not null column.</commentInRDBMS>
+<generatorID>9753CE34-B1AE-2983-6924-A2645F91A9D6</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARY" id="A9CFE9CE-CECE-2151-7C03-FDA387299CCD">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Monthly salary of the employee. Must be greater&lt;br/&gt;than zero (enforced by constraint emp_salary_min)</commentInRDBMS>
+<generatorID>EC4A7AE5-15C9-49DC-9CFE-47EBAC343E54</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<constraintName>EMP_SALARY_MIN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="salary &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMMISSION PCT" id="C2D020AE-C024-7F9C-E1C5-C433B8DDCA64">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Commission percentage of the employee; Only employees in sales&lt;br/&gt;department elgible for commission percentage</commentInRDBMS>
+<generatorID>7DAA4725-DD95-DA0A-606F-1CD1B6B76E00</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MANAGER ID" id="69964AC0-5D3B-7BDC-A364-C68D304055F1">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Manager id of the employee; has same domain as manager_id in&lt;br/&gt;departments table. Foreign key to employee_id column of employees table.&lt;br/&gt;(useful for reflexive joins and CONNECT BY query)</commentInRDBMS>
+<generatorID>D74A1BF5-F285-B016-99D4-41EEB80D9597</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FDD973D5-302A-5D35-B110-3B9D2CC0C183</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPARTMENT ID" id="CF94026C-4129-B6FF-2620-4C4E123E1CFC">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<commentInRDBMS>Department id where employee works; foreign key to department_id&lt;br/&gt;column of the departments table</commentInRDBMS>
+<generatorID>A33B28E9-5B1E-3952-67DF-244A27394F6E</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>69974457-253F-1F99-95B3-8388FEA721D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32565881-4904-B172-176E-DB4BA9496A24" name="EMP EMAIL UK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<generatorID>1F85FA31-B6ED-3A1C-3205-4E4F945EA652</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>CC05D28C-9E64-3111-DC56-E529F35111ED</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FF43D926-56BA-F2B3-5129-A5F155BA7815" name="EMP EMP ID PK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:16:16 UTC</createdTime>
+<generatorID>48C9048B-99B1-0603-79BB-01E24E24C37C</generatorID>
+<ownerDesignName>exercices</ownerDesignName>
+<engineerTo>
+<item key="D8357AA1-32A4-35B6-D28A-5310EBA70F46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDD973D5-302A-5D35-B110-3B9D2CC0C183</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="HR" directorySegmentName="seg_0" id="4BA9E405-F90C-0FBF-B2BB-C3A7CCBAB4CC">
+<sourceConnName>hr</sourceConnName>
+<sourceObjName>HR</sourceObjName>
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:40 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<schemaObject>B18C7A74-FC0E-DC86-AB53-C78FC915708C</schemaObject>
+<defTableSpace>6608084C-9964-6385-294B-34C99E28A719</defTableSpace>
+<privileges>CREATE VIEW, UNLIMITED TABLESPACE, CREATE DATABASE LINK, CREATE SEQUENCE, CREATE SESSION, ALTER SESSION, CREATE SYNONYM</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="3A763DEA-4FFC-9181-2BDE-8C7684EF2968">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:34:40 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="4F791C08-7B00-F7F9-B93C-F4938F5000B4">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:35:11 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<tableSpace>6608084C-9964-6385-294B-34C99E28A719</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

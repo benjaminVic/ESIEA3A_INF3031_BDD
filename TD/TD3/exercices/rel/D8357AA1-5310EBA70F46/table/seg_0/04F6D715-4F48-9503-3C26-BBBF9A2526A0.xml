@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04F6D715-4F48-9503-3C26-BBBF9A2526A0" name="PROJECTS">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:44:26 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<abbreviation>PRO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROJECT_ID" id="BC774E9C-484A-A420-13FF-1C01CA7D2DAA">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:47:06 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_NAME" id="C2C95EEF-E7ED-6014-4200-B04568673560">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:47:39 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_START_DATE" id="82269E47-FDBA-8A63-0E90-4F4E5700FA2C">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:48:35 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROJECT_END_DATE" id="FEC214AA-BA03-34AF-4642-D031D82285AC">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:48:49 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTEMENTS_DEPARTEMENT_ID" id="E74A2047-096B-19D8-3FAB-592DAAE3AB99">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:00:41 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE1AFA99-B2E9-0262-9030-C61896DABAE5" referredColumn="8F736A65-C36C-06B2-BAC4-BE92A669F4F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00913093-6FC4-90B7-11EA-FE2AB8B61220" name="PROJECTS_PK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 12:47:06 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC774E9C-484A-A420-13FF-1C01CA7D2DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47BD95B8-1B01-B480-F9CA-DFFB999B87B0" name="PROJECTS_DEPARTMENTS_FK">
+<createdBy>BenjaminVIC</createdBy>
+<createdTime>2017-02-16 13:05:44 UTC</createdTime>
+<ownerDesignName>exercices</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74A2047-096B-19D8-3FAB-592DAAE3AB99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
