@@ -19,7 +19,7 @@ End
 
 --DONEDONE
 --NB DE CLE A VENDRE PAR JEU ET A QUEL PRIX MINI PAR JEU
-SELECT gam.GAM_LABEL, tmp.AUC_PRICE, pla.PLA_LABEL
+SELECT gam.GAM_LABEL as "Jeux", tmp.AUC_PRICE as "Prix", pla.PLA_LABEL as "Plateformes"
 FROM GAME gam
 JOIN PLATFORM pla ON gam.FK_ID_PLATFORM = pla.ID_PLATFORM
 JOIN (
@@ -34,7 +34,7 @@ order by gam.GAM_LABEL;
 
 --DONEDONE
 --STATS GLOBALE : COMPTE LE NOMBRE DE JEUX VENDU ET NON VENDU
-SELECT gam.GAM_LABEL, tmp.NB_NONVENDU, tmp.NB_VENDU, pla.PLA_LABEL
+SELECT gam.GAM_LABEL as "Jeux", tmp.NB_NONVENDU as "Nombre de jeux invendus", tmp.NB_VENDU as "Nombre de jeux vendus", pla.PLA_LABEL as "Platformes"
 FROM GAME gam
 JOIN PLATFORM pla ON gam.FK_ID_PLATFORM = pla.ID_PLATFORM
 JOIN (
@@ -51,7 +51,7 @@ order by gam.GAM_LABEL;
 
 --DONEDONE
 --STATS PAR VENDEUR : SE PASER SUR PAGE PRECEDENTE POUR AVOIR STATISTIQUE VENTE PAR PERSONNE
-SELECT gam.GAM_LABEL, tmp.NB_NONVENDU, tmp.NB_VENDU, pla.PLA_LABEL, tmp.USR_LAST_NAME
+SELECT gam.GAM_LABEL as "Jeux", tmp.NB_NONVENDU as "Nombre de jeux invendus", tmp.NB_VENDU as "Nombre de jeux vendus", pla.PLA_LABEL as "Platformes", tmp.USR_LAST_NAME as "Vendeur - Nom"
 FROM GAME gam
 JOIN PLATFORM pla ON gam.FK_ID_PLATFORM = pla.ID_PLATFORM
 JOIN (
@@ -69,7 +69,7 @@ order by tmp.NB_VENDU;
 
 --DONEDONE
 --Stats de remboursement de clef par jeu et par personne
-SELECT tmp.USR_LAST_NAME ,tmp.NOMBRE_REMBOURSEMENT, gam.GAM_LABEL, pla.PLA_LABEL
+SELECT tmp.USR_LAST_NAME as "Vendeur - nom", tmp.NOMBRE_REMBOURSEMENT as "Nombre de remboursement", gam.GAM_LABEL as "Jeux", pla.PLA_LABEL as "Plateformes"
 FROM GAME gam
 JOIN PLATFORM pla ON gam.FK_ID_PLATFORM = pla.ID_PLATFORM
 JOIN (
@@ -87,7 +87,7 @@ order by tmp.NOMBRE_REMBOURSEMENT;
 
 --DONEDONE
 --STATS ACHAT ACHETEUR : nom/mail
-SELECT USR.USR_LAST_NAME, sum(TRN.TRN_TOTAL) as DEPENSE_TOTAL, avg(TRN.TRN_TOTAL) as DEPENSE_MOYENNE, USR.USR_MAIL
+SELECT USR.USR_LAST_NAME as "Acheteur - nom", sum(TRN.TRN_TOTAL) as "Depense totale", avg(TRN.TRN_TOTAL) as "Depense moyenne", USR.USR_MAIL as "Acheteur - mail"
 FROM UTILISATEUR USR
 JOIN TRANSACT TRN on TRN.FK_ID_BUYER = USR.ID_UTILISATEUR
 WHERE TRN_REFUND_DATE is null
@@ -96,7 +96,7 @@ GROUP BY USR.USR_LAST_NAME, USR.USR_MAIL;
 
 --DONEDONE
 --Stats de taxes à payer par etat
-SELECT COU.COU_LABEL, SUM(TRN.TRN_TAX_VALUE) 
+SELECT COU.COU_LABEL as "Pays", SUM(TRN.TRN_TAX_VALUE) as "Taxes dûes"
 FROM COUNTRY COU
 JOIN TRANSACT TRN on TRN.FK_ID_COUNTRY = COU.ID_COUNTRY
 WHERE TRN.TRN_REFUND_DATE is null
